@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title> Analytics Brain Stroke with RapidMiner</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Portfolio</a>
+        </div>
+        <a class="" href="about.html">About</a>
+        <a class="" href="skill.html">Skills</a>
+      </nav>
+      <div class="container mt-5"><h3> Analytics Brain Stroke with RapidMiner	</h3>
+        <p>This is the project in Business Data Analytics Course (May 2024)</p>
+        <p>To understand how RapidMiner works and to understand how prediction works based on operators by using Brain Stroke dataset, it is also know how to work each operator. And the dataset used as a model in this project comes from the Kaggle website.</p>
+        <h5 class="mt-5"> Data Preparation</h5>
+        <p>I import CSV file and change type some columns to Polynomial</p>
+        <img src="2.png" alt=""width="50%" height="50%"> <img src="1.png" alt=""width="50%" height="50%">
+        <h5 class="mt-5">Modeling</h5>
+        <p>I use Random Forest Model To find 1 model with the most suitable accuracy value. For this model have 4 operators </p>
+        <p>- Retrieve is a dataset</p>
+        <img src="3.png" alt="">
+        <p>- Filter Examples is filter data that want to know anyone who has had a brain stroke over 18 years of age</p>
+        <img src="4.png" alt="">
+        <p class="mt-5">- Set Role is when I want to predict something I will change role to label to prediction for this project I want to prediction stroke then I changed Stroke to label</p>
+        <img src="5.png" alt="">
+        <p class="mt-5">-Validation is show Training(Subprocess and Random Forest) and Testing(Apply Model and Performance)</p>
+        <img src="6.png" alt="">
+        <p class="mt-5">In Subprocess have 4 operators</p>
+        <p>-Aggregate: Select Stroke attribute and change aggregation function to count</p>
+        <p>-Fillter Examples: change Stroke equals 1</p>
+        <p>-Sample: Class 1(has stroke) change size to 222 and Class 0(hasn't stroke) change size to 400 to sampling data</p>
+        <p>-Extract Macro: macro type is data_value, arrtibute name is count(stroke)</p>
+        <img src="7.png" alt="">
+        <h5 class="mt-5">The result</h5>
+        <p>accuracy value is 81.84% The class values ​are suitable for the brain stroke dataset and doing this project helps to know the relationship between each operator and practice modeling without coding. It is another good choice and is considered to be a new experience, including the experience of the RapidMiner program.And I have studied and researched the dataset by myself. I have practiced data research, found reliable and appropriate data that is not illegal and can be used to further develop the project.</p>
+        <img src="8.png" alt="">
+    </div>
+      
+</body>
+</html>

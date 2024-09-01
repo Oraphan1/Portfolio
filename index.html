@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Oraphan Poolrak Portfolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light static-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Portfolio</a>
+        </div>
+        <a class="" href="about.html">About</a>
+        <a class="" href="skill.html">Skills</a>
+      </nav>
+      
+      <header class="header-top">
+        <div class="container position-relative">
+          <div class="row justify-content-center">
+            <div class="col-xl-6">
+              <h1 class="mb-5 text-center text-white">Oraphan Poolrak <br>Looking for an internship in the Data Scientist/Data Engineering position.</h1>
+      
+              <!-- input form -->
+              <form>
+                <div class="row">
+                  <div class="col">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      <div class="container-fluid intro bg-light">
+        <div class="row px-5">
+          <!-- col1 -->
+          <div class="col-lg-4 text-center">
+            <i class="intro-icon bi-window text-primary"></i>
+            <h3>Prediction High Salary with Machine Learning Modeling</h3>
+            <p>Find the problem in dataset and solve the problem and train, test dataset by Jupyter notebooks to create a model Random Forest Regression, Random Forest Classifier using pipeline and Logistic Regression Classifier to find a 1 model is appropriate and run project by Docker.</p>
+            <div class="btn btn-primary" onclick="ml()">Read More</div>
+          </div>
+          <!-- col2 -->
+          <div class="col-lg-4 text-center">
+            <i class="intro-icon bi-layers text-primary"></i>
+            <h3>Superstore Visualization with Microsoft Power BI	</h3>
+            <p>Data Preparation with Excel and import dataset to Microsoft Power BI to visualize data as a dashboard to help to get insight data for supporting the decision making for Business Intelligence.</p>
+            <br><div class="btn btn-primary" onclick="power()">Read More</div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <i class="intro-icon bi-layers text-primary"></i>
+            <h3>Analytics Brain Stroke with RapidMiner	</h3>
+            <p>Data Mining by operator and make auto model in RapidMiner. To know logic and relationship each operator.</p>
+            <br> <br> <br><div class="btn btn-primary" onclick="rapid()">Read More</div>
+          </div>
+          <div class="col text-center mt-5">
+            <i class="intro-icon bi-layers text-primary"></i>
+            <h3>MFU Course Review Web Application Senior Project</h3>
+            <p>Develop application by HTML, JavaScript, Node.JS and MySQL and create workflow ER-Diagram, Use case Diagram <br> to explain how it work application.</p>
+            <div class="btn btn-primary" onclick="mfu()">Read More</div>
+          </div>
+          <script>
+            function rapid(){
+              window.location.href='rapidminer.html';
+            }
+            function mfu(){
+              window.location.href='mfu.html';
+            }
+            function power(){
+              window.location.href='powerbi.html';
+            }
+            function ml(){
+              window.location.href='machine.html';
+            }
+          </script>
+</body>
+</html>

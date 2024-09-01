@@ -1,0 +1,75 @@
+.header-top {
+    position: relative;
+    background: url("blog-4.png") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    
+  }
+  
+  .intro {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  i.intro-icon {
+    font-size: 4.5rem;
+  }
+  
+  .showcase-text {
+    padding: 7rem;
+  }
+  
+  .showcase-img {
+    min-height: 30rem;
+  }
+  
+  #img1 {
+    background-image: url('/assets/img/bg-showcase-1.jpg');
+    background-size: cover;
+  }
+  
+  #img2 {
+    background-image: url('/assets/img/bg-showcase-2.jpg');
+    background-size: cover;
+  }
+  
+  #img3 {
+    background-image: url('/assets/img/bg-showcase-3.jpg');
+    background-size: cover;
+  }
+  
+  .testimonial {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  
+  .testimonial-img {
+    max-width: 12rem;
+  }
+  
+  .footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .sign-up {
+    position: relative;
+    background: url("/assets/img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  a {
+    margin-right: 2%;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: rgb(25, 176, 123);
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
